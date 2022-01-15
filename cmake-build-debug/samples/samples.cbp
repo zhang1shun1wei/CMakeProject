@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="samples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\samples\;CMake Files\samples\dynlib\;CMake Files\samples\slib\;CMake Files\samples\helloworld\;CMake Files\cmakeconf\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynlib">
+				<Option output="/Users/zhangshunwei/CLionProjects/untitled3/bin/Darwin__Debug/libdynlib.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangshunwei/CLionProjects/untitled3/samples/dynlib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib/Makefile&quot;  VERBOSE=1 dynlib"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynlib/fast">
+				<Option output="/Users/zhangshunwei/CLionProjects/untitled3/bin/Darwin__Debug/libdynlib.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangshunwei/CLionProjects/untitled3/samples/dynlib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib/Makefile&quot;  VERBOSE=1 dynlib/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slib">
+				<Option output="/Users/zhangshunwei/CLionProjects/untitled3/bin/Darwin__Debug/libslib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib/Makefile&quot;  VERBOSE=1 slib"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="slib/fast">
+				<Option output="/Users/zhangshunwei/CLionProjects/untitled3/bin/Darwin__Debug/libslib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib/Makefile&quot;  VERBOSE=1 slib/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld">
+				<Option output="/Users/zhangshunwei/CLionProjects/untitled3/bin/Darwin__Debug/helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangshunwei/CLionProjects/untitled3/samples/slib"/>
+					<Add directory="/Users/zhangshunwei/CLionProjects/untitled3/samples/dynlib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld/Makefile&quot;  VERBOSE=1 helloworld"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld/fast">
+				<Option output="/Users/zhangshunwei/CLionProjects/untitled3/bin/Darwin__Debug/helloworld" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangshunwei/CLionProjects/untitled3/samples/slib"/>
+					<Add directory="/Users/zhangshunwei/CLionProjects/untitled3/samples/dynlib"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld/Makefile&quot;  VERBOSE=1 helloworld/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/samples/dynlib/dynlib.cpp">
+			<Option target="dynlib"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/samples/dynlib/dynlib.h">
+			<Option target="dynlib"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/samples/dynlib/test.cpp">
+			<Option target="dynlib"/>
+			<Option target="slib"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/samples/helloworld/helloworld.cpp">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/samples/slib/slib.cpp">
+			<Option target="slib"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/samples/slib/slib.h">
+			<Option target="slib"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/samples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\samples\"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/samples/dynlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\samples\dynlib\"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/samples/slib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\samples\slib\"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/samples/helloworld/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\samples\helloworld\"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/cmakeconf/building_out.cmake">
+			<Option virtualFolder="CMake Files\cmakeconf\"/>
+		</Unit>
+		<Unit filename="/Users/zhangshunwei/CLionProjects/untitled3/cmakeconf/compiler_conf.cmake">
+			<Option virtualFolder="CMake Files\cmakeconf\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

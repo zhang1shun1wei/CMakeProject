@@ -1,0 +1,14 @@
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/untitled3.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/CMakeFiles/rebuild_cache.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/CMakeFiles/edit_cache.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib/CMakeFiles/rebuild_cache.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib/CMakeFiles/edit_cache.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/dynlib/CMakeFiles/dynlib.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib/CMakeFiles/rebuild_cache.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib/CMakeFiles/edit_cache.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/slib/CMakeFiles/slib.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld/CMakeFiles/rebuild_cache.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld/CMakeFiles/edit_cache.dir
+/Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug/samples/helloworld/CMakeFiles/helloworld.dir

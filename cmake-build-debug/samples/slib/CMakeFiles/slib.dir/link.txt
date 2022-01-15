@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../../bin/Darwin__Debug/libslib.a CMakeFiles/slib.dir/__/dynlib/test.cpp.o CMakeFiles/slib.dir/slib.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../bin/Darwin__Debug/libslib.a

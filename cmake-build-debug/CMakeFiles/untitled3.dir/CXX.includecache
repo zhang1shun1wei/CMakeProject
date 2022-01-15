@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhangshunwei/CLionProjects/untitled3/samples/helloworld/helloworld.cpp
+iostream
+-
+string
+-
+slib.h
+-
+dynlib.h
+-
+

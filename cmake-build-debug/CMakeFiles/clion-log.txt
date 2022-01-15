@@ -1,0 +1,9 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/zhangshunwei/CLionProjects/untitled3
+SYSTEM NAME: Darwin
+OUTPUT DIRECTORY: /Users/zhangshunwei/CLionProjects/untitled3/bin/Darwin_
+target platform : Darwin
+./dynlib.cpp./test.cpp+--------------------
+/Users/zhangshunwei/CLionProjects/untitled3/samples
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zhangshunwei/CLionProjects/untitled3/cmake-build-debug
